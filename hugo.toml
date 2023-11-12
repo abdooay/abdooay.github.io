@@ -1,0 +1,4 @@
+baseURL = 'https://abdooay.github.io/'
+languageCode = 'en-us'
+title = 'Abdooay Blog: I write about web development'
+theme="archie"

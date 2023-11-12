@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Abdooay Blog: I write about web development</title>
-    <link>https://abdooay.org/posts/</link>
+    <link>https://abdooay.github.io/posts/</link>
     <description>Recent content in Posts on Abdooay Blog: I write about web development</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 12 Nov 2023 03:27:12 +0200</lastBuildDate>
-    <atom:link href="https://abdooay.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://abdooay.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>https://abdooay.org/posts/hello-world/</link>
+      <link>https://abdooay.github.io/posts/hello-world/</link>
       <pubDate>Sun, 12 Nov 2023 03:27:12 +0200</pubDate>
-      <guid>https://abdooay.org/posts/hello-world/</guid>
+      <guid>https://abdooay.github.io/posts/hello-world/</guid>
       <description></description>
     </item>
   </channel>
