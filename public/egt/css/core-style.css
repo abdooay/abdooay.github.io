@@ -1258,3 +1258,11 @@ span.accor-open {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     }
 }
+.about-me-thumb{
+    text-align: center;
+}
+
+.column_single_gallery_item ul li {
+    margin-left: 3em;
+
+}
