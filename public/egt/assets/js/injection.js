@@ -1,5 +1,5 @@
 // Handle Header
-$.get("/components/Header/header.html", function (data) {
+$.get("/egt/components/Header/header.html", function (data) {
 	$("#header-placeholder").replaceWith(data);
 	// Get active page
 	let pathName = location.pathname.split("/");
@@ -10,7 +10,7 @@ $.get("/components/Header/header.html", function (data) {
 });
 
 if ($("#details-section")) {
-	$.get("/data/Itineraries.json", function (itineraries) {
+	$.get("/egt/data/Itineraries.json", function (itineraries) {
 		let selectedItinerary = itineraries.find(
 			(itinerary) => itinerary.id === localStorage.getItem("itineraryID")
 		);
@@ -57,7 +57,7 @@ if ($("#details-section")) {
 }
 
 if ($("#itineraries-cards")) {
-	$.get("/data/Itineraries.json", function (itineraries) {
+	$.get("/egt/data/Itineraries.json", function (itineraries) {
 		itineraries.forEach((itinerary) => {
 			$("#itineraries-cards").append(
 				`<div class="itinerary-card ${itinerary.type}">
@@ -98,7 +98,7 @@ if ($("#itineraries-cards")) {
 		$(".itinerary-more-details").click(function (event) {
 			event.preventDefault(),
 				localStorage.setItem("itineraryID", $(this).attr("data-id")),
-				(window.location.href = "/Pages/Itineraries/details.html");
+				(window.location.href = "/egt/pages/Itineraries/details.html");
 		});
 		var $filterableGrid = $("#itineraries-cards").isotope({
 			itemSelector: ".itinerary-card",
