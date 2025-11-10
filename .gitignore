@@ -35,6 +35,5 @@ yarn-error.log*
 next-env.d.ts
 
 # Hugo (legacy)
-/public
 /resources
 .hugo_build.lock
